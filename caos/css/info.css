@@ -1,0 +1,24 @@
+#info{
+    background: black;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    text-align: center;
+    padding: 20px;
+}
+#info .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#info .contenedor .info-noti img{
+    width: 180px;
+    height: 180px;
+    border: solid 7px white;
+    border-radius: 50%;
+}
+#info .contenedor .info-noti img:hover{
+    filter: opacity(0.6);
+}
+#info .contenedor .info-noti{
+    margin: 20px;
+}

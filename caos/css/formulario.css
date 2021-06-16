@@ -1,0 +1,46 @@
+#formu {
+    background: rgb(59, 104, 105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 25px;
+}
+
+.form-titulo{
+    background: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px 8px 0px 0px;
+    border-bottom: solid 4px black;
+}
+.form-registro{
+    width: 95%;
+    margin: auto;
+    max-width: 500px;
+    margin-top: 45px;
+    background: (59, 104, 105);
+    border-radius: 15px;
+}
+.contenedor-imput{
+    display: flex;
+    padding: 10px 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.col-48{
+    width: 43%;
+}
+
+.col-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: black;
+    color: white;
+    margin:auto;
+}
